@@ -43,7 +43,25 @@ export type {
 
 export type { CreateThemeOptions } from './core/createTheme';
 
+export type {
+  CssVariableOptions,
+  GenerateThemeCssOptions,
+} from './css/generateCssVariables';
+
+export type { InjectThemeStyleOptions } from './css/injectThemeStyle';
+
 export { createTheme } from './core/createTheme';
 export { mergeTheme } from './core/mergeTheme';
 export { resolveTheme } from './core/resolveTheme';
 export { defaultTheme, defaultThemeBehavior } from './core/themeDefaults';
+
+export {
+  generateCssVariableDeclarations,
+  generateCssVariables,
+  generateThemeCss,
+} from './css/generateCssVariables';
+
+export {
+  injectThemeStyle,
+  removeThemeStyle,
+} from './css/injectThemeStyle';
