@@ -65,3 +65,11 @@ export {
   injectThemeStyle,
   removeThemeStyle,
 } from './css/injectThemeStyle';
+
+export {
+  getThemeById,
+  getThemeNames,
+  kolibriDefaultTheme,
+  themeIds,
+  themes,
+} from './themes';
