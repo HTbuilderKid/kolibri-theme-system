@@ -41,4 +41,9 @@ export type {
   TokenReference,
 } from './core/themeTypes';
 
+export type { CreateThemeOptions } from './core/createTheme';
+
+export { createTheme } from './core/createTheme';
+export { mergeTheme } from './core/mergeTheme';
+export { resolveTheme } from './core/resolveTheme';
 export { defaultTheme, defaultThemeBehavior } from './core/themeDefaults';
